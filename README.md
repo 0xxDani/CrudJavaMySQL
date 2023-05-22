@@ -12,11 +12,17 @@ USE crudclientesdos;
 
 CREATE TABLE clientesdos(        
 id INT AUTO_INCREMENT PRIMARY KEY,
+
 nombre_apellido VARCHAR(30),
+
 direccion VARCHAR(30) NOT NULL,
+
 email VARCHAR(30) NOT NULL,
+
 telefono VARCHAR(12),
+
 estado_civil VARCHAR(10)
+
 )
 
 
